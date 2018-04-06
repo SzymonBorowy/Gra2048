@@ -1,0 +1,12 @@
+D:\REPOZYTORIUM GIT\Gra2048\Gra2048\bin\Debug\Gra2048.exe.config
+D:\REPOZYTORIUM GIT\Gra2048\Gra2048\bin\Debug\Gra2048.exe
+D:\REPOZYTORIUM GIT\Gra2048\Gra2048\bin\Debug\Gra2048.pdb
+D:\REPOZYTORIUM GIT\Gra2048\Gra2048\obj\Debug\Gra2048.csprojResolveAssemblyReference.cache
+D:\REPOZYTORIUM GIT\Gra2048\Gra2048\obj\Debug\Gra2048.Form1.resources
+D:\REPOZYTORIUM GIT\Gra2048\Gra2048\obj\Debug\Gra2048.Gra.resources
+D:\REPOZYTORIUM GIT\Gra2048\Gra2048\obj\Debug\Gra2048.Properties.Resources.resources
+D:\REPOZYTORIUM GIT\Gra2048\Gra2048\obj\Debug\Gra2048.csproj.GenerateResource.Cache
+D:\REPOZYTORIUM GIT\Gra2048\Gra2048\obj\Debug\Gra2048.csproj.CoreCompileInputs.cache
+D:\REPOZYTORIUM GIT\Gra2048\Gra2048\obj\Debug\Gra2048.exe
+D:\REPOZYTORIUM GIT\Gra2048\Gra2048\obj\Debug\Gra2048.pdb
+D:\REPOZYTORIUM GIT\Gra2048\Gra2048\obj\Debug\Gra2048.Test.resources
