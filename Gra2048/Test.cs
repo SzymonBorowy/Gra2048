@@ -28,7 +28,10 @@ namespace Gra2048
             tablicaLabel = new Label[wielkosc, wielkosc];
             wynik = 0;
             start();
+<<<<<<< HEAD
             
+=======
+>>>>>>> d293dc3c58c0642602467095f0925f12b0e638df
         }
 
         enum Kolory
@@ -87,6 +90,12 @@ namespace Gra2048
                 case Kolory.czarny:
                     k = Color.Black;
                     break;
+<<<<<<< HEAD
+=======
+                default:
+                    k = Color.Black;
+                    break;
+>>>>>>> d293dc3c58c0642602467095f0925f12b0e638df
             }
             return k;
         }
@@ -118,7 +127,11 @@ namespace Gra2048
                     };
                 }
             }
+<<<<<<< HEAD
             tablicaWartosci[0, 0] = 2;
+=======
+            /*tablicaWartosci[0, 0] = 2;
+>>>>>>> d293dc3c58c0642602467095f0925f12b0e638df
             tablicaWartosci[1, 0] = 4;
             tablicaWartosci[2, 0] = 8;
             tablicaWartosci[3, 0] = 16;
@@ -128,7 +141,14 @@ namespace Gra2048
             tablicaWartosci[2, 1] = 256;
             tablicaWartosci[3, 1] = 512;
             tablicaWartosci[4, 1] = 1024;
+<<<<<<< HEAD
             tablicaWartosci[0, 2] = 2048;
+=======
+            tablicaWartosci[0, 1] = 2048;
+            tablicaWartosci[0, 2] = 2048;
+            tablicaWartosci[0, 3] = 2048;
+            tablicaWartosci[0, 4] = 2048;*/
+>>>>>>> d293dc3c58c0642602467095f0925f12b0e638df
             losuj();
             losuj();
             dodajKwadratyDoformy();
@@ -145,13 +165,20 @@ namespace Gra2048
                 j = rnd.Next(0, wielkoscPlanszy);
             } while (tablicaWartosci[i, j] != 0);
             tablicaWartosci[i, j] = 2;
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> d293dc3c58c0642602467095f0925f12b0e638df
         }
 
         private void Test_KeyDown(object sender, KeyEventArgs e)
         {
             bool losujPoUdanymRuchu = false;
+<<<<<<< HEAD
+=======
+            int wynikStary = Convert.ToInt32(label1.Text);
+>>>>>>> d293dc3c58c0642602467095f0925f12b0e638df
             if(e.KeyCode == Keys.Down)
             {
                 losujPoUdanymRuchu = moveDown();
@@ -170,6 +197,11 @@ namespace Gra2048
             }
             if (losujPoUdanymRuchu)
                 losuj();
+<<<<<<< HEAD
+=======
+            else if (wynikStary != wynik)
+                losuj();
+>>>>>>> d293dc3c58c0642602467095f0925f12b0e638df
             wyswietl();
         }
         public void swap(int i1, int j1, char kierunek)
@@ -228,6 +260,10 @@ namespace Gra2048
                             tablicaWartosci[k + 1, j] += tablicaWartosci[k, j];
                             tablicaWartosci[k, j] = 0;
                             wynik += tablicaWartosci[k + 1, j];
+<<<<<<< HEAD
+=======
+                            //czySwap = true;
+>>>>>>> d293dc3c58c0642602467095f0925f12b0e638df
                         }
                     }
                     wyswietl();
@@ -261,6 +297,10 @@ namespace Gra2048
                             tablicaWartosci[k - 1, j] += tablicaWartosci[k, j];
                             tablicaWartosci[k, j] = 0;
                             wynik += tablicaWartosci[k - 1, j];
+<<<<<<< HEAD
+=======
+                            //czySwap = true;
+>>>>>>> d293dc3c58c0642602467095f0925f12b0e638df
                         }
                     }
                     wyswietl();
@@ -294,6 +334,10 @@ namespace Gra2048
                             tablicaWartosci[i, k - 1] += tablicaWartosci[i, k];
                             tablicaWartosci[i, k] = 0;
                             wynik += tablicaWartosci[i, k-1];
+<<<<<<< HEAD
+=======
+                            //czySwap = true;
+>>>>>>> d293dc3c58c0642602467095f0925f12b0e638df
                         }
                     }
                     wyswietl();
@@ -327,6 +371,10 @@ namespace Gra2048
                             tablicaWartosci[i, k + 1] += tablicaWartosci[i, k];
                             tablicaWartosci[i, k] = 0;
                             wynik += tablicaWartosci[i, k + 1];
+<<<<<<< HEAD
+=======
+                            //czySwap = true;
+>>>>>>> d293dc3c58c0642602467095f0925f12b0e638df
                         }
                     }
                     wyswietl();

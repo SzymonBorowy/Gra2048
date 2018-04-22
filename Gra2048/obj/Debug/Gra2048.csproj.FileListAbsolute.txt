@@ -10,3 +10,17 @@ D:\REPOZYTORIUM GIT\Gra2048\Gra2048\obj\Debug\Gra2048.csproj.CoreCompileInputs.c
 D:\REPOZYTORIUM GIT\Gra2048\Gra2048\obj\Debug\Gra2048.exe
 D:\REPOZYTORIUM GIT\Gra2048\Gra2048\obj\Debug\Gra2048.pdb
 D:\REPOZYTORIUM GIT\Gra2048\Gra2048\obj\Debug\Gra2048.Test.resources
+<<<<<<< HEAD
+=======
+C:\Users\Szymon\Desktop\Gra2048-master\Gra2048\bin\Debug\Gra2048.exe.config
+C:\Users\Szymon\Desktop\Gra2048-master\Gra2048\bin\Debug\Gra2048.exe
+C:\Users\Szymon\Desktop\Gra2048-master\Gra2048\bin\Debug\Gra2048.pdb
+C:\Users\Szymon\Desktop\Gra2048-master\Gra2048\obj\Debug\Gra2048.csprojResolveAssemblyReference.cache
+C:\Users\Szymon\Desktop\Gra2048-master\Gra2048\obj\Debug\Gra2048.Form1.resources
+C:\Users\Szymon\Desktop\Gra2048-master\Gra2048\obj\Debug\Gra2048.Properties.Resources.resources
+C:\Users\Szymon\Desktop\Gra2048-master\Gra2048\obj\Debug\Gra2048.Test.resources
+C:\Users\Szymon\Desktop\Gra2048-master\Gra2048\obj\Debug\Gra2048.csproj.GenerateResource.Cache
+C:\Users\Szymon\Desktop\Gra2048-master\Gra2048\obj\Debug\Gra2048.csproj.CoreCompileInputs.cache
+C:\Users\Szymon\Desktop\Gra2048-master\Gra2048\obj\Debug\Gra2048.exe
+C:\Users\Szymon\Desktop\Gra2048-master\Gra2048\obj\Debug\Gra2048.pdb
+>>>>>>> d293dc3c58c0642602467095f0925f12b0e638df
